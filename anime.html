@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link rel="stylesheet" href="anime.css">
+</head>
+<body>
+                                     <!-- section-1 -->
+    <section class="section-1 ">
+       <header>
+          <h2 class="logo">anime</h2>
+          <div class="toggle"></div>
+       </header>
+        <video src="anime.mp4" muted loop autoplay ></video>
+        <div class="text">
+            <h3>ALL TIME</h3>
+            <h1>BEST ANIMES TO WATCH</h1>
+            <p>Anime is a Japanese term of animation.Outside of japan and in English,anime refers specifically to animation producted in japan.</p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href=""><img src="icons8-facebook-50.png" alt=""></a></li>
+            <li><a href=""><img src="icons8-instagram-50.png" alt=""></a></li>
+            <li><a href=""><img src="icons8-linkedin-50.png" alt=""></a></li>
+            <li><a href=""><img src="icons8-twitter-squared-50.png" alt=""></a></li>
+        </ul>
+    </section>
+
+                                      <!-- menu-item-list -->
+   <div class="menu">
+     <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Exlore</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+     </ul>
+   </div>
+                                       <!-- script -->
+   <script>
+        const menutoggle=document.querySelector('.toggle')
+        const section=document.querySelector('.section-1')
+        
+        menutoggle.addEventListener('click',function(){
+            menutoggle.classList.toggle('active')
+            section.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
