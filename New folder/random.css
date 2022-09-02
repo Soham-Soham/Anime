@@ -1,0 +1,74 @@
+*{
+    background-color: black;
+}
+.thumbnail{
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+}
+h2,h3,p{
+    color: #fff;
+    
+}
+.section-2 video .img-fluid{
+    height: 20rem;
+}
+.section-4 video .img-fluid{
+    height: 20rem;
+}
+section{
+    padding-bottom: 60px;
+}
+.section-4 .row{
+    padding-bottom: 10px;
+}
+.section-4 h2{
+    padding-bottom: 40px ;
+}
+
+
+/* section-3 */
+
+.section-3 .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .section-3 .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .section-3 .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .section-3 .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .section-3 .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /* section-5 */
+  .section-5{
+    padding: 0 160px 50px;
+  }
